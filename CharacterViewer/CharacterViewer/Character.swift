@@ -9,10 +9,18 @@ import Foundation
 
 struct ResponseData: Codable {
     let relatedTopics: [Character]
+    
+    enum CodingKeys: String, CodingKey {
+        case relatedTopics = "RelatedTopics"
+    }
 }
 
 struct Icon: Codable {
     let url: String
+    
+    enum CodingKeys: String, CodingKey {
+        case url = "URL"
+    }
 }
 
 struct Character: Codable {
@@ -22,5 +30,10 @@ struct Character: Codable {
     
     var name: String {
         return text.components(separatedBy: " - ").first ?? ""
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case text = "Text"
+        case icon = "Icon"
     }
 }

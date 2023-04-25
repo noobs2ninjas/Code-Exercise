@@ -9,7 +9,7 @@ import UIKit
 
 class CharacterTableViewController: UITableViewController {
     
-    var characterTableViewModel: CharactersTableViewModel!
+    var characterTableViewModel: CharactersTableViewModel?
     
     var url = URL(string: "http://api.duckduckgo.com/?q=simpsons+characters&format=json")!
     
@@ -17,6 +17,10 @@ class CharacterTableViewController: UITableViewController {
         super.viewDidLoad()
 
         clearsSelectionOnViewWillAppear = false
+        
+        Task {
+            characterTableViewModel = try? await CharactersTableViewModel(delegate: self, url: url)
+        }
 
     }
 
@@ -29,16 +33,20 @@ class CharacterTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return characterTableViewModel.characters.count
+        return characterTableViewModel?.characters.count ?? 0
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
-        let character = characterTableViewModel.characters[indexPath.row]
-        cell.textLabel?.text = character.name
+        guard let character = characterTableViewModel?.characters[indexPath.row] else {
+            cell.textLabel?.text = "ERROR"
+            return cell
+        }
         
+        cell.textLabel?.text = character.name
         return cell
     }
 

@@ -6,12 +6,9 @@
 //
 
 import XCTest
-@testable import simpsonsviewer
+@testable import CharacterViewer
 
 final class CharacterDataTest: XCTestCase {
-    
-    
-    typealias expectationCompletion = () -> Bool
     
     var charactersTableViewModel: CharactersTableViewModel?
     
@@ -19,6 +16,8 @@ final class CharacterDataTest: XCTestCase {
         let url = Bundle.main.url(forResource: "data", withExtension: "json")!
         do {
             charactersTableViewModel = try await CharactersTableViewModel(delegate: self, url: url)
+        } catch {
+            print(error.localizedDescription)
         }
     }
 
@@ -34,8 +33,11 @@ final class CharacterDataTest: XCTestCase {
     func testCharacterTableViewModel() throws {
         if let charactersTableViewModel {
             XCTAssert(charactersTableViewModel.characters.count > 0, "More than 1 character parsed")
+            
+        } else {
+            XCTAssert(false, "CharactersTableViewModelNil")
         }
-        XCTAssert(false, "CharactersTableViewModelNil")
+        
         
     }
 

@@ -4,7 +4,4 @@
    <FileRef
       location = "group:simpsonsviewer.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:../SharedCodebase/SharedCodebase.xcodeproj">
-   </FileRef>
 </Workspace>
