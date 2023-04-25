@@ -19,9 +19,13 @@ class CharacterTableViewController: UITableViewController {
         clearsSelectionOnViewWillAppear = false
         
         Task {
-            characterTableViewModel = try? await CharactersTableViewModel(delegate: self, url: url)
+            do {
+                characterTableViewModel = try await CharactersTableViewModel(delegate: self, url: url)
+                self.tableView.reloadData()
+            } catch {
+                print(error.localizedDescription)
+            }
         }
-
     }
 
     // MARK: - Table view data source

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import CharacterViewer
+@testable import simpsonsviewer
 
 final class CharacterDataTest: XCTestCase {
     
@@ -48,5 +48,3 @@ extension CharacterDataTest: CharactersTableViewModelDelegate {
         
     }
 }
-
-

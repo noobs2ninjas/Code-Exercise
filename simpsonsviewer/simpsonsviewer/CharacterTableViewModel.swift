@@ -14,15 +14,15 @@ protocol CharactersTableViewModelDelegate {
 class CharactersTableViewModel {
     
     let delegate: CharactersTableViewModelDelegate
+    let url: URL
     
-    var characters = [Character]() {
+    var characters:[Character]! {
         didSet {
             delegate.didRecieveCharacters()
         }
     }
     
-    let url: URL!
-    
+    // Not sure how efficient this is. I just haven't done swift concurrency in an init function and wanted to try.
     init(delegate: CharactersTableViewModelDelegate, url: URL) async throws {
         self.delegate = delegate
         self.url = url

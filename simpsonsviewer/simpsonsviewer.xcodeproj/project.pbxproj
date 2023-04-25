@@ -7,91 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B981527729F831DD002BC324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B981527629F831DD002BC324 /* Main.storyboard */; };
-		B981527A29F8332F002BC324 /* CharacterViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B981527929F8332F002BC324 /* CharacterViewer.framework */; };
-		B981527B29F8332F002BC324 /* CharacterViewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B981527929F8332F002BC324 /* CharacterViewer.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B981527D29F8345C002BC324 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B981527C29F8345C002BC324 /* data.json */; };
-		B981527E29F83463002BC324 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B981527C29F8345C002BC324 /* data.json */; };
-		B981528029F8358F002BC324 /* CharacterViewer.framework in Sources */ = {isa = PBXBuildFile; fileRef = B981527929F8332F002BC324 /* CharacterViewer.framework */; };
-		B981528229F83595002BC324 /* CharacterViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B981528129F83595002BC324 /* CharacterViewer.framework */; };
-		B981528429F836B4002BC324 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981528329F836B4002BC324 /* MainSplitViewController.swift */; };
-		B9B10BBF29F7CE7E003B6EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B10BBE29F7CE7E003B6EA1 /* AppDelegate.swift */; };
-		B9B10BC129F7CE7E003B6EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B10BC029F7CE7E003B6EA1 /* SceneDelegate.swift */; };
-		B9B10BC829F7CE7F003B6EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B10BC729F7CE7F003B6EA1 /* Assets.xcassets */; };
-		B9B10BCB29F7CE7F003B6EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B10BC929F7CE7F003B6EA1 /* LaunchScreen.storyboard */; };
-		B9B10BD629F7CE7F003B6EA1 /* CharacterDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B10BD529F7CE7F003B6EA1 /* CharacterDataTest.swift */; };
-		B9B10BE029F7CE7F003B6EA1 /* simpsonsviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B10BDF29F7CE7F003B6EA1 /* simpsonsviewerUITests.swift */; };
-		B9B10BE229F7CE7F003B6EA1 /* simpsonsviewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B10BE129F7CE7F003B6EA1 /* simpsonsviewerUITestsLaunchTests.swift */; };
+		B981529F29F83DCF002BC324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981529E29F83DCF002BC324 /* AppDelegate.swift */; };
+		B98152A129F83DCF002BC324 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152A029F83DCF002BC324 /* SceneDelegate.swift */; };
+		B98152A629F83DCF002BC324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98152A429F83DCF002BC324 /* Main.storyboard */; };
+		B98152A829F83DD0002BC324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98152A729F83DD0002BC324 /* Assets.xcassets */; };
+		B98152AB29F83DD0002BC324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98152A929F83DD0002BC324 /* LaunchScreen.storyboard */; };
+		B98152B629F83DD1002BC324 /* CharacterDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152B529F83DD1002BC324 /* CharacterDataTest.swift */; };
+		B98152C029F83DD1002BC324 /* simpsonsviewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152BF29F83DD1002BC324 /* simpsonsviewerUITests.swift */; };
+		B98152C229F83DD1002BC324 /* simpsonsviewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152C129F83DD1002BC324 /* simpsonsviewerUITestsLaunchTests.swift */; };
+		B98152D229F83E6F002BC324 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152CE29F83E6F002BC324 /* CharacterTableViewController.swift */; };
+		B98152D429F83E6F002BC324 /* CharacterTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152CF29F83E6F002BC324 /* CharacterTableViewModel.swift */; };
+		B98152D529F83E6F002BC324 /* CharacterTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152CF29F83E6F002BC324 /* CharacterTableViewModel.swift */; };
+		B98152D629F83E6F002BC324 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152D029F83E6F002BC324 /* Character.swift */; };
+		B98152D729F83E6F002BC324 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98152D029F83E6F002BC324 /* Character.swift */; };
+		B98152D829F83E6F002BC324 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B98152D129F83E6F002BC324 /* data.json */; };
+		B98152D929F83E6F002BC324 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B98152D129F83E6F002BC324 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B9B10BD229F7CE7F003B6EA1 /* PBXContainerItemProxy */ = {
+		B98152B229F83DD1002BC324 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B9B10BB329F7CE7E003B6EA1 /* Project object */;
+			containerPortal = B981529329F83DCF002BC324 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9B10BBA29F7CE7E003B6EA1;
+			remoteGlobalIDString = B981529A29F83DCF002BC324;
 			remoteInfo = simpsonsviewer;
 		};
-		B9B10BDC29F7CE7F003B6EA1 /* PBXContainerItemProxy */ = {
+		B98152BC29F83DD1002BC324 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B9B10BB329F7CE7E003B6EA1 /* Project object */;
+			containerPortal = B981529329F83DCF002BC324 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9B10BBA29F7CE7E003B6EA1;
+			remoteGlobalIDString = B981529A29F83DCF002BC324;
 			remoteInfo = simpsonsviewer;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		B981527529F830EE002BC324 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B981527B29F8332F002BC324 /* CharacterViewer.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		B981527629F831DD002BC324 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B981527929F8332F002BC324 /* CharacterViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CharacterViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B981527C29F8345C002BC324 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		B981528129F83595002BC324 /* CharacterViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CharacterViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B981528329F836B4002BC324 /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
-		B9B10BBB29F7CE7E003B6EA1 /* simpsonsviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpsonsviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B10BBE29F7CE7E003B6EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9B10BC029F7CE7E003B6EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9B10BC729F7CE7F003B6EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9B10BCA29F7CE7F003B6EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9B10BCC29F7CE7F003B6EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9B10BD129F7CE7F003B6EA1 /* simpsonsviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpsonsviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B10BD529F7CE7F003B6EA1 /* CharacterDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataTest.swift; sourceTree = "<group>"; };
-		B9B10BDB29F7CE7F003B6EA1 /* simpsonsviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpsonsviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9B10BDF29F7CE7F003B6EA1 /* simpsonsviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpsonsviewerUITests.swift; sourceTree = "<group>"; };
-		B9B10BE129F7CE7F003B6EA1 /* simpsonsviewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpsonsviewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B981529B29F83DCF002BC324 /* simpsonsviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpsonsviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B981529E29F83DCF002BC324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B98152A029F83DCF002BC324 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B98152A529F83DCF002BC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B98152A729F83DD0002BC324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B98152AA29F83DD0002BC324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B98152AC29F83DD0002BC324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98152B129F83DD1002BC324 /* simpsonsviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpsonsviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98152B529F83DD1002BC324 /* CharacterDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDataTest.swift; sourceTree = "<group>"; };
+		B98152BB29F83DD1002BC324 /* simpsonsviewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = simpsonsviewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98152BF29F83DD1002BC324 /* simpsonsviewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpsonsviewerUITests.swift; sourceTree = "<group>"; };
+		B98152C129F83DD1002BC324 /* simpsonsviewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpsonsviewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B98152CE29F83E6F002BC324 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		B98152CF29F83E6F002BC324 /* CharacterTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTableViewModel.swift; sourceTree = "<group>"; };
+		B98152D029F83E6F002BC324 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		B98152D129F83E6F002BC324 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9B10BB829F7CE7E003B6EA1 /* Frameworks */ = {
+		B981529829F83DCF002BC324 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B981527A29F8332F002BC324 /* CharacterViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BCE29F7CE7F003B6EA1 /* Frameworks */ = {
+		B98152AE29F83DD1002BC324 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B981528229F83595002BC324 /* CharacterViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BD829F7CE7F003B6EA1 /* Frameworks */ = {
+		B98152B829F83DD1002BC324 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -101,87 +85,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9B10BB229F7CE7E003B6EA1 = {
+		B981529229F83DCF002BC324 = {
 			isa = PBXGroup;
 			children = (
-				B9B10BBD29F7CE7E003B6EA1 /* simpsonsviewer */,
-				B9B10BD429F7CE7F003B6EA1 /* simpsonsviewerTests */,
-				B9B10BDE29F7CE7F003B6EA1 /* simpsonsviewerUITests */,
-				B9B10BBC29F7CE7E003B6EA1 /* Products */,
-				B9B10C0129F7D110003B6EA1 /* Frameworks */,
+				B981529D29F83DCF002BC324 /* simpsonsviewer */,
+				B98152B429F83DD1002BC324 /* simpsonsviewerTests */,
+				B98152BE29F83DD1002BC324 /* simpsonsviewerUITests */,
+				B981529C29F83DCF002BC324 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B9B10BBC29F7CE7E003B6EA1 /* Products */ = {
+		B981529C29F83DCF002BC324 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9B10BBB29F7CE7E003B6EA1 /* simpsonsviewer.app */,
-				B9B10BD129F7CE7F003B6EA1 /* simpsonsviewerTests.xctest */,
-				B9B10BDB29F7CE7F003B6EA1 /* simpsonsviewerUITests.xctest */,
+				B981529B29F83DCF002BC324 /* simpsonsviewer.app */,
+				B98152B129F83DD1002BC324 /* simpsonsviewerTests.xctest */,
+				B98152BB29F83DD1002BC324 /* simpsonsviewerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9B10BBD29F7CE7E003B6EA1 /* simpsonsviewer */ = {
+		B981529D29F83DCF002BC324 /* simpsonsviewer */ = {
 			isa = PBXGroup;
 			children = (
-				B981527629F831DD002BC324 /* Main.storyboard */,
-				B981528329F836B4002BC324 /* MainSplitViewController.swift */,
-				B9B10C7C29F7D5B2003B6EA1 /* SupportingFiles */,
+				B98152D029F83E6F002BC324 /* Character.swift */,
+				B98152CE29F83E6F002BC324 /* CharacterTableViewController.swift */,
+				B98152CF29F83E6F002BC324 /* CharacterTableViewModel.swift */,
+				B98152A429F83DCF002BC324 /* Main.storyboard */,
+				B98152DA29F843FE002BC324 /* Supporting Files */,
 			);
 			path = simpsonsviewer;
 			sourceTree = "<group>";
 		};
-		B9B10BD429F7CE7F003B6EA1 /* simpsonsviewerTests */ = {
+		B98152B429F83DD1002BC324 /* simpsonsviewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				B981527C29F8345C002BC324 /* data.json */,
-				B9B10BD529F7CE7F003B6EA1 /* CharacterDataTest.swift */,
+				B98152B529F83DD1002BC324 /* CharacterDataTest.swift */,
 			);
 			path = simpsonsviewerTests;
 			sourceTree = "<group>";
 		};
-		B9B10BDE29F7CE7F003B6EA1 /* simpsonsviewerUITests */ = {
+		B98152BE29F83DD1002BC324 /* simpsonsviewerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B9B10BDF29F7CE7F003B6EA1 /* simpsonsviewerUITests.swift */,
-				B9B10BE129F7CE7F003B6EA1 /* simpsonsviewerUITestsLaunchTests.swift */,
+				B98152BF29F83DD1002BC324 /* simpsonsviewerUITests.swift */,
+				B98152C129F83DD1002BC324 /* simpsonsviewerUITestsLaunchTests.swift */,
 			);
 			path = simpsonsviewerUITests;
 			sourceTree = "<group>";
 		};
-		B9B10C0129F7D110003B6EA1 /* Frameworks */ = {
+		B98152DA29F843FE002BC324 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B981528129F83595002BC324 /* CharacterViewer.framework */,
-				B981527929F8332F002BC324 /* CharacterViewer.framework */,
+				B98152D129F83E6F002BC324 /* data.json */,
+				B981529E29F83DCF002BC324 /* AppDelegate.swift */,
+				B98152A029F83DCF002BC324 /* SceneDelegate.swift */,
+				B98152A729F83DD0002BC324 /* Assets.xcassets */,
+				B98152A929F83DD0002BC324 /* LaunchScreen.storyboard */,
+				B98152AC29F83DD0002BC324 /* Info.plist */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B9B10C7C29F7D5B2003B6EA1 /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				B9B10BBE29F7CE7E003B6EA1 /* AppDelegate.swift */,
-				B9B10BC029F7CE7E003B6EA1 /* SceneDelegate.swift */,
-				B9B10BC929F7CE7F003B6EA1 /* LaunchScreen.storyboard */,
-				B9B10BC729F7CE7F003B6EA1 /* Assets.xcassets */,
-				B9B10BCC29F7CE7F003B6EA1 /* Info.plist */,
-			);
-			path = SupportingFiles;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9B10BBA29F7CE7E003B6EA1 /* simpsonsviewer */ = {
+		B981529A29F83DCF002BC324 /* simpsonsviewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B10BE529F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewer" */;
+			buildConfigurationList = B98152C529F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewer" */;
 			buildPhases = (
-				B9B10BB729F7CE7E003B6EA1 /* Sources */,
-				B9B10BB829F7CE7E003B6EA1 /* Frameworks */,
-				B9B10BB929F7CE7E003B6EA1 /* Resources */,
-				B981527529F830EE002BC324 /* Embed Frameworks */,
+				B981529729F83DCF002BC324 /* Sources */,
+				B981529829F83DCF002BC324 /* Frameworks */,
+				B981529929F83DCF002BC324 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -189,69 +164,69 @@
 			);
 			name = simpsonsviewer;
 			productName = simpsonsviewer;
-			productReference = B9B10BBB29F7CE7E003B6EA1 /* simpsonsviewer.app */;
+			productReference = B981529B29F83DCF002BC324 /* simpsonsviewer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9B10BD029F7CE7F003B6EA1 /* simpsonsviewerTests */ = {
+		B98152B029F83DD1002BC324 /* simpsonsviewerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B10BE829F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewerTests" */;
+			buildConfigurationList = B98152C829F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewerTests" */;
 			buildPhases = (
-				B9B10BCD29F7CE7F003B6EA1 /* Sources */,
-				B9B10BCE29F7CE7F003B6EA1 /* Frameworks */,
-				B9B10BCF29F7CE7F003B6EA1 /* Resources */,
+				B98152AD29F83DD1002BC324 /* Sources */,
+				B98152AE29F83DD1002BC324 /* Frameworks */,
+				B98152AF29F83DD1002BC324 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B9B10BD329F7CE7F003B6EA1 /* PBXTargetDependency */,
+				B98152B329F83DD1002BC324 /* PBXTargetDependency */,
 			);
 			name = simpsonsviewerTests;
 			productName = simpsonsviewerTests;
-			productReference = B9B10BD129F7CE7F003B6EA1 /* simpsonsviewerTests.xctest */;
+			productReference = B98152B129F83DD1002BC324 /* simpsonsviewerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9B10BDA29F7CE7F003B6EA1 /* simpsonsviewerUITests */ = {
+		B98152BA29F83DD1002BC324 /* simpsonsviewerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B10BEB29F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewerUITests" */;
+			buildConfigurationList = B98152CB29F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewerUITests" */;
 			buildPhases = (
-				B9B10BD729F7CE7F003B6EA1 /* Sources */,
-				B9B10BD829F7CE7F003B6EA1 /* Frameworks */,
-				B9B10BD929F7CE7F003B6EA1 /* Resources */,
+				B98152B729F83DD1002BC324 /* Sources */,
+				B98152B829F83DD1002BC324 /* Frameworks */,
+				B98152B929F83DD1002BC324 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B9B10BDD29F7CE7F003B6EA1 /* PBXTargetDependency */,
+				B98152BD29F83DD1002BC324 /* PBXTargetDependency */,
 			);
 			name = simpsonsviewerUITests;
 			productName = simpsonsviewerUITests;
-			productReference = B9B10BDB29F7CE7F003B6EA1 /* simpsonsviewerUITests.xctest */;
+			productReference = B98152BB29F83DD1002BC324 /* simpsonsviewerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B9B10BB329F7CE7E003B6EA1 /* Project object */ = {
+		B981529329F83DCF002BC324 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					B9B10BBA29F7CE7E003B6EA1 = {
+					B981529A29F83DCF002BC324 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					B9B10BD029F7CE7F003B6EA1 = {
+					B98152B029F83DD1002BC324 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = B9B10BBA29F7CE7E003B6EA1;
+						TestTargetID = B981529A29F83DCF002BC324;
 					};
-					B9B10BDA29F7CE7F003B6EA1 = {
+					B98152BA29F83DD1002BC324 = {
 						CreatedOnToolsVersion = 14.3;
-						TestTargetID = B9B10BBA29F7CE7E003B6EA1;
+						TestTargetID = B981529A29F83DCF002BC324;
 					};
 				};
 			};
-			buildConfigurationList = B9B10BB629F7CE7E003B6EA1 /* Build configuration list for PBXProject "simpsonsviewer" */;
+			buildConfigurationList = B981529629F83DCF002BC324 /* Build configuration list for PBXProject "simpsonsviewer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,39 +234,39 @@
 				en,
 				Base,
 			);
-			mainGroup = B9B10BB229F7CE7E003B6EA1;
-			productRefGroup = B9B10BBC29F7CE7E003B6EA1 /* Products */;
+			mainGroup = B981529229F83DCF002BC324;
+			productRefGroup = B981529C29F83DCF002BC324 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9B10BBA29F7CE7E003B6EA1 /* simpsonsviewer */,
-				B9B10BD029F7CE7F003B6EA1 /* simpsonsviewerTests */,
-				B9B10BDA29F7CE7F003B6EA1 /* simpsonsviewerUITests */,
+				B981529A29F83DCF002BC324 /* simpsonsviewer */,
+				B98152B029F83DD1002BC324 /* simpsonsviewerTests */,
+				B98152BA29F83DD1002BC324 /* simpsonsviewerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9B10BB929F7CE7E003B6EA1 /* Resources */ = {
+		B981529929F83DCF002BC324 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B981527729F831DD002BC324 /* Main.storyboard in Resources */,
-				B9B10BCB29F7CE7F003B6EA1 /* LaunchScreen.storyboard in Resources */,
-				B9B10BC829F7CE7F003B6EA1 /* Assets.xcassets in Resources */,
-				B981527D29F8345C002BC324 /* data.json in Resources */,
+				B98152AB29F83DD0002BC324 /* LaunchScreen.storyboard in Resources */,
+				B98152A829F83DD0002BC324 /* Assets.xcassets in Resources */,
+				B98152A629F83DCF002BC324 /* Main.storyboard in Resources */,
+				B98152D829F83E6F002BC324 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BCF29F7CE7F003B6EA1 /* Resources */ = {
+		B98152AF29F83DD1002BC324 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B981527E29F83463002BC324 /* data.json in Resources */,
+				B98152D929F83E6F002BC324 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BD929F7CE7F003B6EA1 /* Resources */ = {
+		B98152B929F83DD1002BC324 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,54 +276,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9B10BB729F7CE7E003B6EA1 /* Sources */ = {
+		B981529729F83DCF002BC324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B10BBF29F7CE7E003B6EA1 /* AppDelegate.swift in Sources */,
-				B9B10BC129F7CE7E003B6EA1 /* SceneDelegate.swift in Sources */,
-				B981528429F836B4002BC324 /* MainSplitViewController.swift in Sources */,
+				B98152D229F83E6F002BC324 /* CharacterTableViewController.swift in Sources */,
+				B981529F29F83DCF002BC324 /* AppDelegate.swift in Sources */,
+				B98152D629F83E6F002BC324 /* Character.swift in Sources */,
+				B98152D429F83E6F002BC324 /* CharacterTableViewModel.swift in Sources */,
+				B98152A129F83DCF002BC324 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BCD29F7CE7F003B6EA1 /* Sources */ = {
+		B98152AD29F83DD1002BC324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B981528029F8358F002BC324 /* CharacterViewer.framework in Sources */,
-				B9B10BD629F7CE7F003B6EA1 /* CharacterDataTest.swift in Sources */,
+				B98152B629F83DD1002BC324 /* CharacterDataTest.swift in Sources */,
+				B98152D529F83E6F002BC324 /* CharacterTableViewModel.swift in Sources */,
+				B98152D729F83E6F002BC324 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9B10BD729F7CE7F003B6EA1 /* Sources */ = {
+		B98152B729F83DD1002BC324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9B10BE229F7CE7F003B6EA1 /* simpsonsviewerUITestsLaunchTests.swift in Sources */,
-				B9B10BE029F7CE7F003B6EA1 /* simpsonsviewerUITests.swift in Sources */,
+				B98152C229F83DD1002BC324 /* simpsonsviewerUITestsLaunchTests.swift in Sources */,
+				B98152C029F83DD1002BC324 /* simpsonsviewerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B9B10BD329F7CE7F003B6EA1 /* PBXTargetDependency */ = {
+		B98152B329F83DD1002BC324 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9B10BBA29F7CE7E003B6EA1 /* simpsonsviewer */;
-			targetProxy = B9B10BD229F7CE7F003B6EA1 /* PBXContainerItemProxy */;
+			target = B981529A29F83DCF002BC324 /* simpsonsviewer */;
+			targetProxy = B98152B229F83DD1002BC324 /* PBXContainerItemProxy */;
 		};
-		B9B10BDD29F7CE7F003B6EA1 /* PBXTargetDependency */ = {
+		B98152BD29F83DD1002BC324 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9B10BBA29F7CE7E003B6EA1 /* simpsonsviewer */;
-			targetProxy = B9B10BDC29F7CE7F003B6EA1 /* PBXContainerItemProxy */;
+			target = B981529A29F83DCF002BC324 /* simpsonsviewer */;
+			targetProxy = B98152BC29F83DD1002BC324 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B9B10BC929F7CE7F003B6EA1 /* LaunchScreen.storyboard */ = {
+		B98152A429F83DCF002BC324 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B9B10BCA29F7CE7F003B6EA1 /* Base */,
+				B98152A529F83DCF002BC324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B98152A929F83DD0002BC324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B98152AA29F83DD0002BC324 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -356,7 +342,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		B9B10BE329F7CE7F003B6EA1 /* Debug */ = {
+		B98152C329F83DD1002BC324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,7 +402,7 @@
 			};
 			name = Debug;
 		};
-		B9B10BE429F7CE7F003B6EA1 /* Release */ = {
+		B98152C429F83DD1002BC324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -470,7 +456,7 @@
 			};
 			name = Release;
 		};
-		B9B10BE629F7CE7F003B6EA1 /* Debug */ = {
+		B98152C629F83DD1002BC324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -479,13 +465,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = simpsonsviewer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Simpsons Viewer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +483,7 @@
 			};
 			name = Debug;
 		};
-		B9B10BE729F7CE7F003B6EA1 /* Release */ = {
+		B98152C729F83DD1002BC324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -508,13 +492,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = simpsonsviewer/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Simpsons Viewer";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -528,7 +510,7 @@
 			};
 			name = Release;
 		};
-		B9B10BE929F7CE7F003B6EA1 /* Debug */ = {
+		B98152C929F83DD1002BC324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,7 +529,7 @@
 			};
 			name = Debug;
 		};
-		B9B10BEA29F7CE7F003B6EA1 /* Release */ = {
+		B98152CA29F83DD1002BC324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -566,7 +548,7 @@
 			};
 			name = Release;
 		};
-		B9B10BEC29F7CE7F003B6EA1 /* Debug */ = {
+		B98152CC29F83DD1002BC324 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -583,7 +565,7 @@
 			};
 			name = Debug;
 		};
-		B9B10BED29F7CE7F003B6EA1 /* Release */ = {
+		B98152CD29F83DD1002BC324 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -603,43 +585,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9B10BB629F7CE7E003B6EA1 /* Build configuration list for PBXProject "simpsonsviewer" */ = {
+		B981529629F83DCF002BC324 /* Build configuration list for PBXProject "simpsonsviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9B10BE329F7CE7F003B6EA1 /* Debug */,
-				B9B10BE429F7CE7F003B6EA1 /* Release */,
+				B98152C329F83DD1002BC324 /* Debug */,
+				B98152C429F83DD1002BC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B10BE529F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewer" */ = {
+		B98152C529F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9B10BE629F7CE7F003B6EA1 /* Debug */,
-				B9B10BE729F7CE7F003B6EA1 /* Release */,
+				B98152C629F83DD1002BC324 /* Debug */,
+				B98152C729F83DD1002BC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B10BE829F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewerTests" */ = {
+		B98152C829F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9B10BE929F7CE7F003B6EA1 /* Debug */,
-				B9B10BEA29F7CE7F003B6EA1 /* Release */,
+				B98152C929F83DD1002BC324 /* Debug */,
+				B98152CA29F83DD1002BC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B10BEB29F7CE7F003B6EA1 /* Build configuration list for PBXNativeTarget "simpsonsviewerUITests" */ = {
+		B98152CB29F83DD1002BC324 /* Build configuration list for PBXNativeTarget "simpsonsviewerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B9B10BEC29F7CE7F003B6EA1 /* Debug */,
-				B9B10BED29F7CE7F003B6EA1 /* Release */,
+				B98152CC29F83DD1002BC324 /* Debug */,
+				B98152CD29F83DD1002BC324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B9B10BB329F7CE7E003B6EA1 /* Project object */;
+	rootObject = B981529329F83DCF002BC324 /* Project object */;
 }
